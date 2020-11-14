@@ -1,0 +1,38 @@
+@media screen and (min-width: 320px){
+  #container{
+     width: 800px; height: 300px;
+     padding: 0px;
+     margin: 10px auto; 
+  }        
+  #header{
+      height: 50px;
+      color: white;
+      background-color: darkgray;
+      font-size: 24px; text-align: center;
+      line-height: 50px;
+  }
+  #main {
+      width:60%; height: 100%;
+      color: white;
+      background-color: lightgray;
+      font-size: 24px; text-align: center;
+      line-height: 300px;
+      float: left;
+  }
+  #sidebar{
+      width:40%; height: 100%;
+      color: gray;
+      background-color: whitesmoke;
+      font-size: 24px; text-align: center;
+      line-height: 300px;
+      float: left;
+  }
+  #footer{
+      height: 50px;            
+      color: white;
+      background-color: darkgray;
+      font-size: 24px; text-align: center;
+      line-height: 50px;        
+      clear: both;
+  }        
+}
