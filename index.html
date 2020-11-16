@@ -104,43 +104,43 @@
             <hr>
           </div>
         </div>
-          <div class="timeline">
-            <div class="date-title">
-              <span>2018</span>
-            </div>
-            <div class="row">
-              <div  class="col-sm-6 news-item">
-                <div class="news-content">
-                  <div class="date">
-                    <p>Oct</p>
-                  </div>
-                  <h2 class="news-title">Best Photographer</h2>
-                  <span>Animal Care Group</span>
-                  <p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a
-                    pain that produces no resultant pleasure…</p>
-                  <a class="read-more" href="#">Read More</a>
+        <div class="timeline">
+          <div class="date-title">
+            <span>2018</span>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 news-item">
+              <div class="news-content">
+                <div class="date">
+                  <p>Oct</p>
                 </div>
-              </div>
-              <div  class="col-sm-6 news-item right">
-                <div class="news-content">
-                  <div class="date">
-                    <p>Aug</p>
-                  </div>
-                  <h2 class="news-title">1st Winner</h2>
-                  <span>National Awareness</span>
-                  <p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a
-                    pain that produces no resultant pleasure…</p>
-                  <a class="read-more" href="#">Read More</a>
-                </div>
+                <h2 class="news-title">Best Photographer</h2>
+                <span>Animal Care Group</span>
+                <p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a
+                  pain that produces no resultant pleasure…</p>
+                <a class="read-more" href="#">Read More</a>
               </div>
             </div>
-            <div class="date-title">
-              <span>2019</span>
+            <div class="col-sm-6 news-item right">
+              <div class="news-content">
+                <div class="date">
+                  <p>Aug</p>
+                </div>
+                <h2 class="news-title">1st Winner</h2>
+                <span>National Awareness</span>
+                <p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a
+                  pain that produces no resultant pleasure…</p>
+                <a class="read-more" href="#">Read More</a>
+              </div>
             </div>
           </div>
+          <div class="date-title">
+            <span>2019</span>
+          </div>
+        </div>
       </div>
   </section>
-  <section> 
+  <section>
     <div id="services" class="services">
       <div class="container">
         <div class="timeline">
@@ -220,20 +220,24 @@
 
   <!-- Portfolio -->
   <section>
+    <button id="bt01" class="icon-btn add-btn">
+      <div class="add-icon"></div>
+      <div class="btn-txt">Skill</div>
+    </button>
     <div id="portfolio" class="portfolio">
-      <div class="container">
+      <div div="di01" class="container">
         <div class="row">
           <div class="container">
-            <h1>Skill Set</h1>
+            <h1 id="h101" style="display: none;">Skill Set</h1>
+            <h1 id="h102">Language</h1>
             <hr>
-            <button id="xz-5">text</button>  
             <div id="di01" class="bar learning" data-skill="TDD"></div>
             <div id="di02" class="bar back basic" data-skill="Python"></div>
             <div id="di03" class="bar back intermediate" data-skill="C#"></div>
             <div id="di04" class="bar front advanced" data-skill="CSS3"></div>
-            <div class="bar front expert" data-skill="PHP"></div>
-            <div class="bar front expert" data-skill="HTML5"></div>
-            <div class="bar front expert" data-skill="HTML5"></div>
+            <div id="di05" class="bar front expert" data-skill="PHP"></div>
+            <div id="di06" class="bar1 front expert" data-skill="HTML5"></div>
+            <div id="di07" class="bar1 front expert" data-skill="HTML5"></div>
           </div>
         </div>
       </div>
@@ -387,7 +391,57 @@
 
   <!-- Footer -->
   <footer>
-    <div class="container">
+    <ul>
+      <li>
+        <a class="facebook" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a class="instagram" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="fa fa-google-plus" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <!-- /Footer -->
+ <!--old --> 
+<!-- <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center">
           <ul class="list-inline">
@@ -399,17 +453,13 @@
             <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
           </div>
           <hr>
-          <p>Copyright &copy; Company 2013</p>
         </div>
       </div>
-    </div>
-  </footer>
-  <!-- /Footer -->
-
-
+    </div> -->
+<!--end-->
   <!-- JavaScript -->
   <!-- <script src="js/jquery-1.10.2.js"></script> -->
-  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+  <script src="js/jquery-1.9.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/nas.js"></script>
 
@@ -435,14 +485,21 @@
       scrollPage();
     });
 
-    $(document).ready(function(){
-    $("#xz-5").onclick(function(){
-    $("#div01").fadeIn();
-    $("#div02").fadeIn("slow");
-  });
-});
+    $(document).ready(function () {
+      $("#bt01").click(function () {
+        $("#di01").toggle();
+        $("#h101").toggle("slow");
+        $("#h102").toggle("slow");
+        $("#di02").toggle("slow");
+        $("#di03").toggle("slow");
+        $("#di04").toggle("slow");
+        $("#di05").toggle("slow");
+        $("#di06").toggle("slow");
+        $("#di07").toggle("slow");
+      });
+    });
   </script>
-
+F
 </body>
 
 </html>
